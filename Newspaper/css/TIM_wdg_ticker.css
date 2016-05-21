@@ -1,0 +1,461 @@
+.hd_mxmcard {
+    font-family: "cabin", sans-serif;
+    background: #f5f5f5;
+    color: #454545;
+    width: calc(320px - 20px);
+    width: calc(100% - 20px);
+    margin: 0 auto 10px auto;
+    height: 72px;
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
+    box-sizing: border-box
+}
+@media screen and (min-width: 624px) {
+    .hd_mxmcard {
+        display: block;
+        float: left;
+        vertical-align: top;
+        width: 300px;
+        margin-right: 20px;
+        margin-bottom: 10px
+    }
+    .hd_mxmcard:nth-of-type(2n) {
+        margin-right: 0
+    }
+}
+@media screen and (min-width: 940px) {
+    .hd_mxmcard {
+        display: block;
+        float: left;
+        vertical-align: top;
+        width: 347px;
+        margin-right: 40px;
+        box-sizing: border-box
+    }
+    .hd_mxmcard:nth-of-type(2n) {
+        margin-right: 40px
+    }
+}
+@media screen and (min-width: 940px) and (max-width: 1259px) {
+    .hd_mxmcard:nth-of-type(3n) {
+        margin-right: 0
+    }
+}
+@media screen and (min-width: 940px) and (min-width: 1260px) {
+    .hd_mxmcard:nth-of-type(3n) {
+        margin-right: 0
+    }
+}
+.hd_mxmcard * {
+    box-sizing: border-box
+}
+.hd_mxmcard .hd_mxmcard_mainw {
+    height: 72px;
+    width: 300px;
+    width: calc(100% + 2px);
+    box-sizing: content-box
+}
+.hd_mxmcard .hd_mxmcard_content {
+    width: 225px;
+    width: 75.004%;
+    height: 100%;
+    float: left;
+    padding: 1px 3%
+}
+@media screen and (min-width: 375px) and (max-width: 624px) {
+    .hd_mxmcard .hd_mxmcard_content {
+        padding: 1px 6%
+    }
+}
+.hd_mxmcard .hd_mxmcard_content .mxm_cont {
+    width: 70px;
+    width: 33.82%;
+    float: left;
+    height: 100%;
+    position: relative
+}
+@media screen and (min-width: 375px) and (max-width: 624px) {
+    .hd_mxmcard .hd_mxmcard_content .mxm_cont {
+        width: 35.4%
+    }
+}
+.hd_mxmcard .hd_mxmcard_content .mxm_cont .teamw {
+    width: 30px;
+    overflow: hidden;
+    padding: 9px 0;
+    text-align: center;
+    float: left;
+    top: 0
+}
+.hd_mxmcard .hd_mxmcard_content .mxm_cont .teamw img {
+    width: 100%;
+    height: auto;
+    font-size: 12px;
+    font-weight: bold
+}
+.hd_mxmcard .hd_mxmcard_content .mxm_cont .teamw span {
+    text-transform: uppercase;
+    font-size: 12px
+}
+.hd_mxmcard .hd_mxmcard_content .mxm_cont .goalw {
+    position: relative;
+    float: left;
+    text-align: center;
+    width: 40px;
+    width: 57%;
+    padding-top: 18px;
+    font-size: 18px;
+    padding-left: 3px
+}
+.hd_mxmcard .hd_mxmcard_content .mxm_cont .goalw span {
+    margin-right: 0;
+    float: none
+}
+.hd_mxmcard .hd_mxmcard_content .mxm_cont .goalw .penales {
+    display: inline-block;
+    background-color: #e3af4c;
+    border-radius: 8px;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    color: #fffefe;
+    font-size: 10px;
+    letter-spacing: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-left: 5px
+}
+.hd_mxmcard .hd_mxmcard_content .mxm_cont.team2 .goalw {
+    float: right;
+    margin-left: 0 !important
+}
+.hd_mxmcard .hd_mxmcard_content .mxm_cont.team2 .teamw {
+    float: right
+}
+.hd_mxmcard .hd_mxmcard_content .time {
+    width: 65px;
+    width: 31.401%
+}
+@media screen and (min-width: 375px) and (max-width: 624px) {
+    .hd_mxmcard .hd_mxmcard_content .time {
+        width: 65px
+    }
+}
+.hd_mxmcard .hd_mxmcard_asidew {
+    width: 74px;
+    width: 24.5%;
+    float: left;
+    background-color: #e4e4e4;
+    height: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    overflow: hidden;
+    border-radius: 0 4px 4px 0
+}
+.hd_mxmcard .hd_mxmcard_actions {
+    display: block;
+    overflow: hidden;
+    height: 100%;
+    text-align: center;
+    box-sizing: content-box;
+    font-size: 11px;
+    -webkit-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    position: relative;
+    border-radius: 0 4px 4px 0
+}
+.hd_mxmcard .hd_mxmcard_actions a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    line-height: 16px;
+    color: #434343 !important;
+    font-weight: bold;
+    position: static
+}
+.hd_mxmcard .hd_mxmcard_actions a:hover {
+    background-color: #d43d3e;
+    color: white !important
+}
+.hd_mxmcard .hd_mxmcard_actions a span {
+    position: absolute;
+    top: calc(50% - 8px);
+    width: 100%;
+    left: 0;
+    height: 16px
+}
+.hd_mxmcard .hd_mxmcard_actions.hd_envivo,
+.hd_mxmcard .hd_mxmcard_actions.hd_tudiriges {
+    position: relative
+}
+.hd_mxmcard .hd_mxmcard_actions.hd_envivo a,
+.hd_mxmcard .hd_mxmcard_actions.hd_tudiriges a {
+    position: static;
+    height: 50%
+}
+.hd_mxmcard .hd_mxmcard_actions.hd_envivo a span,
+.hd_mxmcard .hd_mxmcard_actions.hd_tudiriges a span {
+    top: auto
+}
+.hd_mxmcard .hd_mxmcard_actions.hd_envivo a:hover,
+.hd_mxmcard .hd_mxmcard_actions.hd_tudiriges a:hover {
+    background: transparent
+}
+.hd_mxmcard .hd_mxmcard_actions.hd_envivo .liveimg,
+.hd_mxmcard .hd_mxmcard_actions.hd_tudiriges .liveimg {
+    position: relative;
+    height: 100%
+}
+.hd_mxmcard .hd_mxmcard_actions.hd_envivo .liveimg i,
+.hd_mxmcard .hd_mxmcard_actions.hd_tudiriges .liveimg i {
+    position: absolute;
+    top: 5px;
+    left: calc(50% - 8px);
+    color: white;
+    font-size: 8px;
+    line-height: 16px;
+    z-index: 1;
+    width: 19px
+}
+.hd_mxmcard .hd_mxmcard_actions.hd_envivo .liveimg i:after,
+.hd_mxmcard .hd_mxmcard_actions.hd_tudiriges .liveimg i:after {
+    content: '';
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+    top: 0;
+    position: absolute;
+    border-radius: 8px;
+    border: 2px solid white;
+    box-sizing: border-box
+}
+.hd_mxmcard .hd_mxmcard_actions.hd_envivo .liveflag,
+.hd_mxmcard .hd_mxmcard_actions.hd_tudiriges .liveflag {
+    height: 100%;
+    width: 50%;
+    background-size: 150% !important;
+    background-position: 50% 50% !important;
+    background-repeat: no-repeat !important;
+    float: left;
+    z-index: 0
+}
+.hd_mxmcard .hd_mxmcard_actions.hd_envivo span,
+.hd_mxmcard .hd_mxmcard_actions.hd_tudiriges span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background-color: rgba(192, 2, 3, 0.85);
+    font-size: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 10px;
+    color: white
+}
+.hd_mxmcard .hd_mxmcard_actions.hd_envivo span img,
+.hd_mxmcard .hd_mxmcard_actions.hd_tudiriges span img {
+    width: 18px
+}
+.hd_mxmcard .hd_mxmcard_apuesta {
+    height: 36px;
+    font-style: italic;
+    font-size: 9px;
+    width: 300px;
+    width: 100%;
+    box-sizing: content-box
+}
+@media screen and (min-width: 375px) and (max-width: 624px) {
+    .hd_mxmcard .hd_mxmcard_apuesta .hd_mxmcard_content {
+        padding: 1px 3%
+    }
+}
+.hd_mxmcard .hd_mxmcard_apuesta .calbt {
+    width: 36px;
+    width: 17.5%;
+    float: left;
+    text-align: center
+}
+.hd_mxmcard .hd_mxmcard_apuesta .calbt a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding-top: 6px;
+    color: black
+}
+.hd_mxmcard .hd_mxmcard_apuesta .calbt.calbt1,
+.hd_mxmcard .hd_mxmcard_apuesta .calbt.calbt2 {
+    margin-right: 47px;
+    margin-right: 22.85%
+}
+.hd_mxmcard .hd_mxmcard_apuesta .calvalue {
+    font-size: 10px;
+    color: #c00203;
+    display: block;
+    font-weight: bold !important
+}
+.hd_mxmcard .hd_mxmcard_apuesta .calvalue:hover {
+    color: #d43d3e
+}
+.hd_mxmcard.mxm-caliente {
+    height: 108px
+}
+@media screen and (min-width: 624px) {
+    .hd_mxmcard.mxm-caliente {
+        margin-bottom: 20px
+    }
+}
+.hd_mxmcard.mxm-caliente .hd_mxmcard_mainw {
+    border-bottom: 1px solid #d8d8d8
+}
+.hd_mxmcard.mxm-caliente .hd_mxmcard_apuesta {
+    display: block
+}
+.hd_mxmcard.mxm-caliente .hd_mxmcard_apuesta .hd_mxmcard_content {
+    height: 36px
+}
+.hd_mxmcard.mxm-caliente .hd_mxmcard_apuesta .hd_mxmcard_asidew {
+    text-align: center;
+    background: url(http://i2.esmas.com/img/deportes/caliente.svg);
+    background-repeat: no-repeat;
+    background-size: 70px 50px;
+    height: 45px;
+    background-position: 0;
+    display: block
+}
+.hd_mxmcard.mxm-caliente .hd_mxmcard_apuesta .hd_mxmcard_asidew a {
+    color: #c00203;
+    height: 100%;
+    display: block;
+    padding-top: 4px
+}
+.hd_mxmcard .info_previow {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    font-size: 9px;
+    font-weight: bold;
+    text-align: center;
+    height: 24px;
+    margin-top: calc(50% - 12px)
+}
+.hd_mxmcard .info_previow span {
+    display: block;
+    text-transform: uppercase;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    line-height: 16px;
+    height: 12px !important;
+    font-size: 10px
+}
+.hd_mxmcard span.mxmc_min {
+    display: block;
+    height: 18px !important;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 9px;
+    font-size: 9px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #e3af4c;
+    margin-top: 0
+}
+@media screen and (min-width: 624px) {
+    .gpo_caliente .hd_mxmcard_mainw {
+        height: 100%
+    }
+    .gpo_caliente .hd_mxmcard {
+        height: 108px
+    }
+    .gpo_caliente .hd_mxmcard_content,
+    .gpo_caliente .mxm_cont {
+        height: 72px
+    }
+    .gpo_caliente .hd_mxmcard .hd_mxmcard_content {
+        margin-top: 18px
+    }
+    .gpo_caliente .hd_mxmcard_actions .liveimg i {
+        margin-top: 12px !important
+    }
+    .gpo_caliente .mxm-resumen .hd_mxmcard_actions a,
+    .gpo_caliente .mxm-tudiriges .hd_mxmcard_actions a,
+    .gpo_caliente .mxm-envivo .hd_mxmcard_actions a {
+        line-height: 54px !important
+    }
+    .gpo_caliente .mxm-caliente .hd_mxmcard_mainw {
+        height: 72px !important
+    }
+    .gpo_caliente .mxm-caliente .hd_mxmcard_content,
+    .gpo_caliente .mxm-caliente .hd_mxmcard_actions.hd_envivo .liveimg i,
+    .gpo_caliente .mxm-caliente .hd_mxmcard_actions.hd_tudiriges .liveimg i {
+        margin-top: 0 !important
+    }
+    .gpo_caliente .mxm-caliente.mxm-resumen .hd_mxmcard_actions a,
+    .gpo_caliente .mxm-caliente.mxm-tudiriges .hd_mxmcard_actions a,
+    .gpo_caliente .mxm-caliente.mxm-envivo .hd_mxmcard_actions a {
+        line-height: 36px !important
+    }
+}
+.ie .hd_mxmcard .hd_mxmcard_actions.hd_envivo a {
+    height: 100%
+}
+.ff .hd_mxmcard .hd_mxmcard_actions.hd_envivo a,
+.mozilla .hd_mxmcard .hd_mxmcard_actions.hd_envivo a {
+    height: 100%
+}
+.android .hd_mxmcard .hd_mxmcard_actions.hd_envivo .liveimg i {
+    line-height: 19px
+}
+body.fotogaleria .dropdown-photogallery {
+    z-index: 996!important
+}
+@media screen and (min-width: 624px) {
+    .hd-cardcontainer {
+        max-height: none!important
+    }
+}
+@media screen and (min-width: 955px) {
+    #header-multimenu.subov .subwrapper {
+        overflow: visible
+    }
+}
+@media screen and (max-width: 954px) {
+    #header-multimenu .subwrapper section.superior {
+        z-index: 22
+    }
+}
